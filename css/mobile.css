@@ -87,11 +87,13 @@ nav a:link, nav a:visited a:active{
 }
 
 .caPho{
-    width: 90%;
-    margin: 0% auto;
+    width: 300px;
+    position: relative;
+    left: 50%;
+    margin-left: -150px;
 }
 
-.caPho img{ 
+.caPho img{
     width: 120px;
     margin: 10px;
 }

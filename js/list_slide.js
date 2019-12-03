@@ -7,7 +7,7 @@ $(function(){
         }
     });
 
-    $('#content').on("click", function(){
+    $('#content, #header').on("click", function(){
         if($('.list').is(":visible")){
             $('.list').slideUp(500);
         }
