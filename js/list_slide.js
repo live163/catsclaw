@@ -12,6 +12,4 @@ $(function(){
             $('.list').slideUp(500);
         }
     });
-
-
 });

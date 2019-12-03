@@ -24,7 +24,7 @@ $(function(){
 
     $("li:nth-child(4)").on('click', function(){
         $('html, body').animate({
-            scrollTop: $("#qual").offset().top +100
+            scrollTop: $("#qual").offset().top -50
         },500);
         return false;
     });
