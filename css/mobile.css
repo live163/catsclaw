@@ -104,7 +104,43 @@ nav a:link, nav a:visited a:active{
 
 .caPho img{
     width: 125px;
+    height: 175px;
+}
+
+[class ^= cap]{
+    display: inline-block;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 125px;
+    height: 175px;
     margin: 10px;
+}
+
+strong{
+    color: #fff;
+    font-size: 0.5em;
+    position: absolute;
+    display: block;
+    z-index: 1;
+    width: 125px;
+    height: 155px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: left;
+    bottom: -175px;
+    padding: 10px;
+}
+
+span{
+    position: absolute;
+    display: block;
+    z-index: 0;
+    top: 0;
+    width: 125px;
+    height: 175px;
+    background-color: rgba(225, 225, 225, 0.5);
+    opacity: 0;
 }
 
 .spec{

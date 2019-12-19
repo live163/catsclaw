@@ -80,15 +80,51 @@
     }
 
     .caPho{
-        width: 500px;
+        width: 600px;
         position: relative;
         left: 50%;
-        margin-left: -250px;
+        margin-left: -300px;
     }
 
     .caPho img{
-        width: 100px;
+        width: 120px;
+        height: 168px;
+    }
+
+    [class ^= cap]{
+        display: inline-block;
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+        margin: 0 auto;
+        width: 120px;
+        height: 168px;
         margin: 10px;
+    }
+
+    strong{
+        color: #fff;
+        font-size: 0.5em;
+        position: absolute;
+        display: block;
+        z-index: 1;
+        width: 120px;
+        height: 148px;
+        background-color: rgba(0, 0, 0, 0.7);
+        text-align: left;
+        bottom: -168px;
+        padding: 10px;
+    }
+
+    span{
+        position: absolute;
+        display: block;
+        z-index: 0;
+        top: 0;
+        width: 120px;
+        height: 168px;
+        background-color: rgba(225, 225, 225, 0.5);
+        opacity: 0;
     }
 
     .spec{

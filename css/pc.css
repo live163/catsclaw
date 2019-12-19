@@ -89,21 +89,48 @@
         position: relative;
         left: 50%;
         margin-left: -450px;
-
     }
 
     .caPho img{
         width: 200px;
+        height: 280px;
+    }
+
+    [class ^= cap]{
+        display: inline-block;
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+        margin: 0 auto;
+        width: 200px;
+        height: 280px;
         margin: 10px;
     }
 
-    /*
-    .phoBox{  
-        width: 100%;
-        height: 400px;
-        background-color: white;
+    strong{
+        color: #fff;
+        font-size: 0.9em;
+        position: absolute;
+        display: block;
+        z-index: 1;
+        width: 200px;
+        height: 260px;
+        background-color: rgba(0, 0, 0, 0.7);
+        text-align: left;
+        bottom: -280px;
+        padding: 10px;
     }
-    */
+
+    span{
+        position: absolute;
+        display: block;
+        z-index: 0;
+        top: 0;
+        width: 200px;
+        height: 280px;
+        background-color: rgba(225, 225, 225, 0.5);
+        opacity: 0;
+    }
 
 
     #mainCoon{
